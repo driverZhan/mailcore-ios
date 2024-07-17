@@ -262,6 +262,7 @@
 		68C29E842C47A539004551BD = {
 			isa = PBXGroup;
 			children = (
+				68C2A0772C47A5CA004551BD /* MailCore */,
 				68C29E8F2C47A539004551BD /* MailCoreDemo */,
 				68C29E8E2C47A539004551BD /* Products */,
 			);
@@ -278,7 +279,6 @@
 		68C29E8F2C47A539004551BD /* MailCoreDemo */ = {
 			isa = PBXGroup;
 			children = (
-				68C2A0772C47A5CA004551BD /* MailCore */,
 				68C29E902C47A539004551BD /* AppDelegate.h */,
 				68C29E912C47A539004551BD /* AppDelegate.m */,
 				68C29E932C47A539004551BD /* SceneDelegate.h */,
