@@ -6,7 +6,6 @@ target 'MailCoreDemo' do
   use_frameworks!
 
   # Pods for MailCoreDemo
-#  pod 'mailcore2-ios'
-  pod 'mailcore-ios', :git => 'https://github.com/driverZhan/mailcore-ios.git'
+  pod 'mailcore-ios'
 
 end

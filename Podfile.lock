@@ -2,20 +2,15 @@ PODS:
   - mailcore-ios (0.0.1)
 
 DEPENDENCIES:
-  - mailcore-ios (from `https://github.com/driverZhan/mailcore-ios.git`)
+  - mailcore-ios
 
-EXTERNAL SOURCES:
-  mailcore-ios:
-    :git: https://github.com/driverZhan/mailcore-ios.git
-
-CHECKOUT OPTIONS:
-  mailcore-ios:
-    :commit: 5916bca194d573c036681d7a97b96fe3db009bdd
-    :git: https://github.com/driverZhan/mailcore-ios.git
+SPEC REPOS:
+  trunk:
+    - mailcore-ios
 
 SPEC CHECKSUMS:
-  mailcore-ios: f919d0e5f04394381c4e239dcbbd877c8dc203c0
+  mailcore-ios: 45c12b1fd6eeb3e7fa44f1d1f2f2fd73e3b70699
 
-PODFILE CHECKSUM: ede549b4ad50e3dfc2cb57db877df2fd752d3623
+PODFILE CHECKSUM: b1abbd545cd52b5fe93babf2a679194d85aad3e5
 
 COCOAPODS: 1.15.2
