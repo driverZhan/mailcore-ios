@@ -23,9 +23,24 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    
-    [[self.session fetchMessagesOperationWithFolder:@"INBOX" requestKind:MCOIMAPMessagesRequestKindStructure uids:[MCOIndexSet indexSetWithRange:MCORangeMake(1, UINT64_MAX)]] start:^(NSError * _Nullable error, NSArray<MCOIMAPMessage *> * _Nullable messages, MCOIndexSet * _Nullable vanishedMessages) {
-            
+    MCOIndexSet *uid = [MCOIndexSet indexSet];
+    [uid addIndex:64];
+    [[self.session fetchMessagesOperationWithFolder:@"INBOX" requestKind:MCOIMAPMessagesRequestKindStructure uids:uid] start:^(NSError * _Nullable error, NSArray<MCOIMAPMessage *> * _Nullable messages, MCOIndexSet * _Nullable vanishedMessages) {
+        if (error) {
+            NSLog(@"%@",error);
+            return;
+        }
+        
+        for (MCOIMAPMessage *msg in messages) {
+            [[self.session htmlBodyRenderingOperationWithMessage:msg folder:@"INBOX"] start:^(NSString * _Nullable htmlString, NSError * _Nullable error) {
+                if (error) {
+                    NSLog(@"%@",error);
+                    return;
+                }
+                NSLog(@"%@",htmlString);
+            }];
+        }
+        
     }];
 //    [[self.session fetchAllFoldersOperation] start:^(NSError * _Nullable error, NSArray<MCOIMAPFolder *> * _Nullable folders) {
 //
