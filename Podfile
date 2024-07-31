@@ -6,6 +6,6 @@ target 'MailCoreDemo' do
   use_frameworks!
 
   # Pods for MailCoreDemo
-  pod 'mailcore-ios'
+  pod 'CMailcore-ios'
 
 end
