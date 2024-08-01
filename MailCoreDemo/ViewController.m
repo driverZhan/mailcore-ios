@@ -19,12 +19,36 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+//    NSString *value = @"%E8%B6%85%E9%95%BF%E5%90%8D%E5%AD%97%E7%9A%84%E6%96%87%E6%A1%A3%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95%E8%B6%85%E9%95%BF%E5%90%8D%E5%AD%97%E7%9A%84%E6%96%87%E6%A1%A3%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95%E8%B6%85%E9%95%BF%E5%90%8D%E5%AD%97%E7%9A%84%E6%96%87%E6%A1%A3%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95%E8%B6%85%E9%95%BF%E5%90%8D%E5%AD%97%E7%9A%84%E6%96%87%E6%A1%A3%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95%E8%B6%85%E9%95%BF%E5%90%8D%E5%AD%97%E7%9A%84%E6%96%87%E6%A1%A3%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95%E8%B6%85%E9%95%BF%E5%90%8D%E5%AD%97%E7%9A%84%E6%96%87%E6%A1%A3%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95%E8%B6%85%E9%95%BF%E5%90%8D%E5%AD%97%E7%9A%84%E6%96%87%E6%A1%A3%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95%E8%B6%85%E9%95%BF%E5%90%8D%E5%AD%97%E7%9A%84%E6%96%87%E6%A1%A3%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95";
+//    NSLog(@"%@",[self stringByURLDecode:value]);
+    
+}
+
+- (NSString *)stringByURLDecode:(NSString *)value {
+    if ([self respondsToSelector:@selector(stringByRemovingPercentEncoding)]) {
+        return [value stringByRemovingPercentEncoding];
+    } else {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+        CFStringEncoding en = CFStringConvertNSStringEncodingToEncoding(NSUTF8StringEncoding);
+        NSString *decoded = [value stringByReplacingOccurrencesOfString:@"+"
+                                                            withString:@" "];
+        decoded = (__bridge_transfer NSString *)
+        CFURLCreateStringByReplacingPercentEscapesUsingEncoding(
+                                                                NULL,
+                                                                (__bridge CFStringRef)decoded,
+                                                                CFSTR(""),
+                                                                en);
+        return decoded;
+#pragma clang diagnostic pop
+    }
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     MCOIndexSet *uid = [MCOIndexSet indexSet];
-    [uid addIndex:64];
+    [uid addIndex:76];
     [[self.session fetchMessagesOperationWithFolder:@"INBOX" requestKind:MCOIMAPMessagesRequestKindStructure uids:uid] start:^(NSError * _Nullable error, NSArray<MCOIMAPMessage *> * _Nullable messages, MCOIndexSet * _Nullable vanishedMessages) {
         if (error) {
             NSLog(@"%@",error);
@@ -32,13 +56,17 @@
         }
         
         for (MCOIMAPMessage *msg in messages) {
-            [[self.session htmlBodyRenderingOperationWithMessage:msg folder:@"INBOX"] start:^(NSString * _Nullable htmlString, NSError * _Nullable error) {
-                if (error) {
-                    NSLog(@"%@",error);
-                    return;
-                }
-                NSLog(@"%@",htmlString);
+            
+            [msg.attachments enumerateObjectsUsingBlock:^(MCOAbstractPart * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+                NSLog(@"filename = %@",obj.filename);
             }];
+//            [[self.session htmlBodyRenderingOperationWithMessage:msg folder:@"INBOX"] start:^(NSString * _Nullable htmlString, NSError * _Nullable error) {
+//                if (error) {
+//                    NSLog(@"%@",error);
+//                    return;
+//                }
+//                NSLog(@"%@",htmlString);
+//            }];
         }
         
     }];

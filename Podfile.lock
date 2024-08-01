@@ -1,16 +1,16 @@
 PODS:
-  - mailcore-ios (0.0.1)
+  - CMailcore-ios (0.1.0)
 
 DEPENDENCIES:
-  - mailcore-ios
+  - CMailcore-ios (~> 0.1.0)
 
 SPEC REPOS:
   trunk:
-    - mailcore-ios
+    - CMailcore-ios
 
 SPEC CHECKSUMS:
-  mailcore-ios: 45c12b1fd6eeb3e7fa44f1d1f2f2fd73e3b70699
+  CMailcore-ios: bae52560e380603f027dff5c5cfcabd5cadd9b8c
 
-PODFILE CHECKSUM: 69e9fa83f89d20fefd8047adacb0efa695ecf022
+PODFILE CHECKSUM: 56c51ca070f91a861443941f0eb966d5a7ca0c23
 
 COCOAPODS: 1.15.2
