@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "CMailcore-ios"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.1"
   spec.summary      = "Rebuild Mailcore for iOS with mailcore2-ios"
   spec.description  = "MailCore provide a simple and asynchronous API to work with e-mail protocols IMAP, POP and SMTP. The API has been redesigned from ground up."
   spec.homepage     = "https://github.com/MailCore/mailcore2"
