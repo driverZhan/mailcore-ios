@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/driverZhan/mailcore-ios.git", :tag => spec.version.to_s }
   spec.header_dir   = "MailCore"
   spec.requires_arc = false
-  spec.source_files = "MailCore/include/MailCore/*.h"
+  #spec.source_files = "MailCore/include/MailCore/*.h"
   #spec.public_header_files = "cocoapods-build/include/MailCore/*.h"
   #spec.preserve_paths = "cocoapods-build/include/MailCore/*.h"
   spec.vendored_frameworks = "lib/MailCore.xcframework"
