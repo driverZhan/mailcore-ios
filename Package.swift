@@ -6,13 +6,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "MailCore2",
+    name: "MailCore",
     platforms: [
         .iOS(.v15)
     ],
     products: [
         .library(
-            name: "MailCore2",
+            name: "MailCore",
             targets: ["MailCoreSupport"]
         )
     ],
