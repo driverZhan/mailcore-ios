@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'ctemplate-ios' in project 'ctemplate' (no dependencies)

@@ -1,0 +1,21 @@
+dependencies: \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.1.sdk/SDKSettings.json \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/src/ctemplate/src/template_dictionary.cc \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/src/ctemplate/build-mac/include/config.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/src/ctemplate/src/base/mutex.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/src/ctemplate/src/base/arena-inl.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/src/ctemplate/src/base/arena.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/src/ctemplate/src/base/thread_annotations.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/src/ctemplate/src/base/macros.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/src/ctemplate/src/base/util.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/src/ctemplate/src/indented_writer.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/ctemplate/Build/Products/Release-iphonesimulator/include/ctemplate/find_ptr.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/ctemplate/Build/Products/Release-iphonesimulator/include/ctemplate/template_dictionary.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/ctemplate/Build/Products/Release-iphonesimulator/include/ctemplate/str_ref.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/ctemplate/Build/Products/Release-iphonesimulator/include/ctemplate/template_dictionary_interface.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/ctemplate/Build/Products/Release-iphonesimulator/include/ctemplate/template_string.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/ctemplate/Build/Products/Release-iphonesimulator/include/ctemplate/template_modifiers.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/ctemplate/Build/Products/Release-iphonesimulator/include/ctemplate/template_emitter.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/ctemplate/Build/Products/Release-iphonesimulator/include/ctemplate/per_expand_data.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/src/ctemplate/src/base/small_map.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/src/ctemplate/src/base/manual_constructor.h

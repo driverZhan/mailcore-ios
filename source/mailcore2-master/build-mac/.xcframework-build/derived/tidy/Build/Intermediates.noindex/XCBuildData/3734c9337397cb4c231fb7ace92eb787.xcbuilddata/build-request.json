@@ -1,0 +1,69 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "225c4760e9d8c809b578f3917460ff6d23c7d77cf2ee5fd7156db7194f8db404"
+    }
+  ],
+  "containerPath" : "/Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/src/tidy/build-mac/Tidy.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "hostTargetedPlatform" : null,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator27.1",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "i386",
+        "x86_64"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/tidy/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/tidy/Build/Products",
+      "derivedDataPath" : "/Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/tidy",
+      "indexDataStoreFolderPath" : "/Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/tidy/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/tidy/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/tidy/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "ARCHS" : "x86_64 arm64",
+          "ENABLE_BITCODE" : "NO",
+          "GCC_TREAT_WARNINGS_AS_ERRORS" : "NO",
+          "IPHONEOS_DEPLOYMENT_TARGET" : "15.0",
+          "ONLY_ACTIVE_ARCH" : "NO",
+          "OTHER_CFLAGS" : "$(inherited) -Wno-error=incompatible-function-pointer-types -Wno-error=implicit-function-declaration -Wno-error=int-conversion -Wno-error=return-type -Wno-error=deprecated-non-prototype -Wno-error=nontrivial-memcall",
+          "SDKROOT" : "iphonesimulator27.1"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

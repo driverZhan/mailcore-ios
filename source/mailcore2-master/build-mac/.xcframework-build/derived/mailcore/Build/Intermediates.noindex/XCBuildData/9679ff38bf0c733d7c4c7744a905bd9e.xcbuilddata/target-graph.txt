@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'mailcore ios' in project 'mailcore2'
+➜ Explicit dependency on target 'static mailcore2 ios' in project 'mailcore2'
+Target 'static mailcore2 ios' in project 'mailcore2' (no dependencies)

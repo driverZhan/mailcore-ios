@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'libetpan ios' in project 'libetpan'
+➜ Explicit dependency on target 'libetpan-prepare-ios' in project 'libetpan'
+Target 'libetpan-prepare-ios' in project 'libetpan' (no dependencies)

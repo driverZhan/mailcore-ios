@@ -1,0 +1,33 @@
+dependencies: \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk/SDKSettings.json \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/src/objc/imap/MCOIMAPFolderStatus.mm \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/src/objc/imap/MCOIMAPFolderStatus.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/src/objc/utils/NSObject+MCO.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/src/core/imap/MCIMAPFolderStatus.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCBaseTypes.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCAutoreleasePool.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCObject.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCUtils.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCValue.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCString.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCRange.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCICUTypes.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCData.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCMessageConstants.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCArray.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCHashMap.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCJSON.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCMD5.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCNull.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCSet.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCHash.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCLog.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCAssert.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCIndexSet.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCOperation.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCOperationQueue.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCLibetpanTypes.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCOperationCallback.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCIterator.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCConnectionLogger.h \
+  /Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/mailcore/Build/Products/Release-iphoneos/include/MailCore/MCHTMLCleaner.h

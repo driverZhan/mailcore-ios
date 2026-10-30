@@ -1,0 +1,76 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "44f1369ba3c99c28fc60ec959ac07d27c60ff30b0e955437020a9c0042389d50"
+    }
+  ],
+  "containerPath" : "/Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/src/libetpan/build-mac/libetpan.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "hostTargetedPlatform" : null,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos27.1",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/etpan/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/etpan/Build/Products",
+      "derivedDataPath" : "/Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/etpan",
+      "indexDataStoreFolderPath" : "/Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/etpan/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/etpan/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/zhanyong/workspace/mailcore-ios/source/mailcore2-master/build-mac/.xcframework-build/derived/etpan/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "ARCHS" : "arm64",
+          "ENABLE_BITCODE" : "NO",
+          "GCC_TREAT_WARNINGS_AS_ERRORS" : "NO",
+          "IPHONEOS_DEPLOYMENT_TARGET" : "15.0",
+          "ONLY_ACTIVE_ARCH" : "NO",
+          "OTHER_CFLAGS" : "$(inherited) -Wno-error=incompatible-function-pointer-types -Wno-error=implicit-function-declaration -Wno-error=int-conversion -Wno-error=return-type -Wno-error=deprecated-non-prototype -Wno-error=nontrivial-memcall",
+          "SDKROOT" : "iphoneos27.1"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>13</integer>
+	<key>logs</key>
+	<dict>
+		<key>1DCCC8D7-3AA4-4E7F-91E8-2015C5F5B902</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1DCCC8D7-3AA4-4E7F-91E8-2015C5F5B902.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>59</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>mailcore2 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>mailcore ios</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project mailcore2 with scheme mailcore ios and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>814962732.99366701</real>
+			<key>timeStoppedRecording</key>
+			<real>814962735.01983905</real>
+			<key>title</key>
+			<string>Building project mailcore2 with scheme mailcore ios and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>1DCCC8D7-3AA4-4E7F-91E8-2015C5F5B902</string>
+		</dict>
+		<key>36EF721E-0891-48B2-A8C9-20DC07C85760</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>36EF721E-0891-48B2-A8C9-20DC07C85760.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>59</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>mailcore2 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>mailcore ios</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project mailcore2 with scheme mailcore ios and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>814962588.51516998</real>
+			<key>timeStoppedRecording</key>
+			<real>814962591.52765703</real>
+			<key>title</key>
+			<string>Building project mailcore2 with scheme mailcore ios and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>36EF721E-0891-48B2-A8C9-20DC07C85760</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
