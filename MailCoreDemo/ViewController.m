@@ -80,9 +80,9 @@
     if (!_session) {
         _session = [[MCOIMAPSession alloc] init];
         _session.port = 993;
-        _session.username = @"zz1@mail.starfronts.com";
+        _session.username = @"zz1@melinked.email";
         _session.password = @"qq123456.";
-        _session.hostname = @"mail.starfronts.com";
+        _session.hostname = @"melinked.email";
         _session.voIPEnabled = NO;
         _session.checkCertificateEnabled = NO;
         _session.connectionType = MCOConnectionTypeTLS;

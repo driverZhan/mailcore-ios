@@ -1,2 +1,5 @@
 Pods/*
 MailCoreDemo.xcodeproj/xcuserdata/yangkejun.xcuserdatad/xcschemes/xcschememanagement.plist
+.xcframework-build/
+*.o
+.build/
