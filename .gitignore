@@ -4,3 +4,11 @@ MailCoreDemo.xcodeproj/xcuserdata/yangkejun.xcuserdatad/xcschemes/xcschememanage
 *.o
 .build/
 xcuserdata/
+source/
+MailCoreDemo/
+*.sh
+Podfile*
+Sources/
+*.podspec
+build*
+
